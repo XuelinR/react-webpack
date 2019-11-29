@@ -6,6 +6,7 @@ import LoadableComponent from "@/loadable"
 const BlogIndex = LoadableComponent(()=>import("@/blog"))
 const ResumeIndex = LoadableComponent(()=>import("@/resume"))
 const UserIndex = LoadableComponent(()=>import("@/user"))
+const FormRender = LoadableComponent(()=>import("@/formrender"))
 // import BlogIndex from "@/blog"
 // import ResumeIndex from "@/resume"
 // import UserIndex from "@/user"
@@ -23,6 +24,8 @@ export default class HomeIndex extends React.Component {
                         <Route path="/blog" component={BlogIndex}/>
                         {/* user */}
                         <Route path="/user" component={UserIndex}/>
+                        {/* formrender */}
+                        <Route path="/formrender" component={FormRender}/>
                     </div>
                 </div>
             </div>
