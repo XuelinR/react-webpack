@@ -6,7 +6,7 @@ class NavigationBar extends Component {
         return (
             <div class="navigation-bar">
                 <div class='nav-logo'>
-                    <img class="logo-img" src="../assets/img/tonghuashijie.png"></img>
+                    <a class="logo-img" ></a>
                     <p class="title">我的后台管理系统</p>
                 </div>
                 <div class="nav-content">
